@@ -538,18 +538,19 @@
 
 #logo1 {
     position: relative;
-    left: -2em;
-    bottom: 0em;
+    left: 0em;
+    top: -0.5em;
     width: 2em;
 }
 
 .navbar .navbar-brand {
-    top: -27px;
+    top: 1px;
 }
 
 #vision {
     font-style: italic;
-    font-size: 15px;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #read-more {
@@ -558,6 +559,18 @@
 }
 
 .default {
-    background: #333333;
+    background: rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 1em;
     color: #FFFFFF;
+    margin-top: 2em;
+}
+
+.index-page .page-header .container>.content-center {
+    top: 50%;
+}
+
+.navbar-nav {
+    position: relative;
+    top: 1em;
 }

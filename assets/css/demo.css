@@ -578,3 +578,15 @@
 .btn-round {
     margin-top: 1em;
 }
+
+#why {
+    margin-top: 10em;
+}
+
+#how {
+    margin: auto;
+}
+
+#what {
+    margin: auto 0;
+}
